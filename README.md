@@ -23,3 +23,8 @@ Primary stakeholder: a shipping-company safety officer who wants to identify hig
 - Defined outliers using the IQR rule (k=1.5).
 - Age outliers flagged; sensitivity analysis showed survival rates are similar with/without them.
 - Risk: removing outliers may remove valid extreme passengers.
+
+## Full EDA
+- Produced histograms, boxplots, and correlation heatmap.
+- Found clear survival differences by sex and passenger class.
+- Age has outliers but median imputation helps.
