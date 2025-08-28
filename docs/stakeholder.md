@@ -1,5 +1,4 @@
 # Stakeholder Memo
-
 To: Safety Officer, Oceanic Shipping Co.
 From: Data Team
 
