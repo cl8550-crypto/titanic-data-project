@@ -13,3 +13,8 @@ Primary stakeholder: a shipping-company safety officer who wants to identify hig
 - /notebooks/ — demo/analysis notebooks
 - /src/ — Python scripts (utils, cleaning)
 - /docs/ — documentation and memos
+
+## Preprocessing Assumptions
+- Missing Age filled with dataset median.
+- Sex encoded as 0/1 for simple downstream modeling.
+- Cleaned dataset saved to `data/processed/titanic_clean.csv`.
