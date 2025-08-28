@@ -28,3 +28,8 @@ Primary stakeholder: a shipping-company safety officer who wants to identify hig
 - Produced histograms, boxplots, and correlation heatmap.
 - Found clear survival differences by sex and passenger class.
 - Age has outliers but median imputation helps.
+
+## Features
+- FamilySize = SibSp + Parch + 1
+- IsAlone = 1 if passenger has no family aboard
+- Title extracted from Name (Mr, Mrs, Miss, etc.)
