@@ -38,3 +38,8 @@ Primary stakeholder: a shipping-company safety officer who wants to identify hig
 - Logistic Regression on Titanic survival.
 - Features: Pclass, Sex, Age, Fare, FamilySize, IsAlone.
 - Accuracy around ~80% on test set.
+
+## Evaluation & Risks
+- Model accuracy ~80%, bootstrap CI around [X, Y].
+- Risks: Age imputation may bias; model assumes linear log-odds.
+- Removing Age outliers didn’t change results much.
