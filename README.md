@@ -33,3 +33,8 @@ Primary stakeholder: a shipping-company safety officer who wants to identify hig
 - FamilySize = SibSp + Parch + 1
 - IsAlone = 1 if passenger has no family aboard
 - Title extracted from Name (Mr, Mrs, Miss, etc.)
+
+## Modeling
+- Logistic Regression on Titanic survival.
+- Features: Pclass, Sex, Age, Fare, FamilySize, IsAlone.
+- Accuracy around ~80% on test set.
