@@ -18,3 +18,8 @@ Primary stakeholder: a shipping-company safety officer who wants to identify hig
 - Missing Age filled with dataset median.
 - Sex encoded as 0/1 for simple downstream modeling.
 - Cleaned dataset saved to `data/processed/titanic_clean.csv`.
+
+## Outlier Assumptions
+- Defined outliers using the IQR rule (k=1.5).
+- Age outliers flagged; sensitivity analysis showed survival rates are similar with/without them.
+- Risk: removing outliers may remove valid extreme passengers.
