@@ -43,3 +43,8 @@ Primary stakeholder: a shipping-company safety officer who wants to identify hig
 - Model accuracy ~80%, bootstrap CI around [X, Y].
 - Risks: Age imputation may bias; model assumes linear log-odds.
 - Removing Age outliers didn’t change results much.
+
+## Productization
+- Saved logistic regression model in /model/logreg.pkl
+- Simple Flask API in app.py: send JSON POST to /predict
+- Example: {"Pclass":3,"Sex":0,"Age":22,"Fare":7.25,"FamilySize":1,"IsAlone":1}
